@@ -1,0 +1,156 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+:root {
+  font-size: 16px;
+}
+video, img, canvas{
+    max-width: 100%;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+/* #canvas{
+  max-width: 100%;
+
+ } */
+
+.container{
+  background-color: antiquewhite;
+  text-align: center;
+ }
+
+
+.headlogo{
+  width: 50%;
+  position: relative;
+  left: 33%;
+ }
+
+.pupy{
+position: relative;
+}
+
+.logo{
+position: relative;
+}
+
+/* .pupys{
+  border-radius: 2px;
+  border-color: black;
+  border: 2px;
+} */
+#sharebutton{
+  margin: 10px 10px;
+
+}
+
+#startbutton{
+  margin: 10px 10px;
+
+
+ }
+
+
+/* גדלים נפוצים שפותחו
+360×640 
+375×667 
+390x844
+414×896 
+430x830
+ */
+
+
+@media only screen and (max-width: 360px) {
+ .pupyAndlogo{
+    position: absolute;
+    right: 29%;
+    top: 33%;
+  }
+  .pupy{
+    right: 29%;
+  }
+
+  .logo{
+    position: absolute;
+    right: 95%;
+    top: 77%;
+    }
+  }
+
+@media only screen and (min-width: 375px) {
+  .pupyAndlogo{
+    position: absolute;
+    right: 26%;
+    top: 36%;
+}
+.pupy{
+  right: 65%;
+}
+  .logo{
+    position: absolute;
+    right: 114%;
+    top: 80%;
+    }
+    
+}
+
+
+@media only screen and (min-width: 390px) {
+.pupyAndlogo{
+  bottom: 41.5%;
+}
+.pupy{
+  position: relative;
+  top: -8%;
+  right: 3%;
+}
+.logo{
+  position: relative;
+  right: 27%;
+  top: -61%;
+  }
+}
+
+@media only screen and (min-width: 414px) {
+  .pupyAndlogo{
+    position: absolute;
+    bottom: 16%;
+    right: 11%;
+  }
+  
+  .logo{
+    position: relative;
+    right: 22%;
+    top: 60%;
+    }
+
+  .pupy{
+    right: 46%;
+    }
+  
+
+}
+
+@media only screen and (min-width: 430px) {
+ 
+  .pupyAndlogo{
+    position: absolute;
+    bottom: 37%;
+    right: 11%;
+}
+
+.pupy{
+  right: 51%;
+  }
+  .logo {
+    position: relative;
+    right: 26%;
+    top: 116%;
+}
+
+}
+
